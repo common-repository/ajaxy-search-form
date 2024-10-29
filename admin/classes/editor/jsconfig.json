@@ -1,0 +1,23 @@
+{
+	"compilerOptions": {
+		"module": "commonjs",
+		"target": "es5",
+		"allowJs": true,
+        "jsx": "react-jsxdev",
+        "lib": ["es6", "es5", "dom"],
+		"checkJs": true,
+		"baseUrl": ".",
+		"strictNullChecks": true,
+		"outDir": "../../js/",
+		"moduleResolution": "node",
+		"emitDecoratorMetadata": true,
+		"experimentalDecorators": true,
+		"resolveJsonModule": true,
+		"removeComments": true,
+		"sourceMap": true,
+		"noImplicitAny": false,
+        "noEmit": true
+	},
+	"include": ["src/**/*.js", "src/editor.js"],
+	"exclude": ["node_modules"]
+}

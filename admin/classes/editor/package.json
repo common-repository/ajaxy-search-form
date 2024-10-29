@@ -1,0 +1,31 @@
+{
+	"name": "ajaxy-blocks",
+	"version": "1.0.0",
+	"description": "Ajaxy Blocks",
+	"main": "index.js",
+	"author": "Naji Amer",
+	"scripts": {
+		"build": "wp-scripts build ./src/editor.js --output-path=../../../admin/js/ & sass -I node_modules src/sass/editor.scss:../../../admin/css/editor.css src/sass/styles.scss:../../../admin/css/styles.css --no-source-map",
+		"dev:watch": "wp-scripts start ./src/editor.js --output-path=../../../admin/js/ & sass -I node_modules -w src/sass/editor.scss:../../../admin/css/editor.css src/sass/styles.scss:../../../admin/css/styles.css",
+		"sass:watch": "sass -I node_modules -w src/sass/editor.scss:../../../admin/css/editor.css src/sass/styles.scss:../../../admin/css/styles.css",
+		"sass:build": "sass -I node_modules -w src/sass/editor.scss:../../../admin/css/editor.css src/sass/styles.scss:../../../admin/css/styles.css --no-source-map"
+	},
+	"devDependencies": {
+		"@types/react": "^18.2.64",
+		"@types/wordpress__block-editor": "^11.5.11",
+		"@types/wordpress__blocks": "^12.5.13",
+		"@types/wordpress__components": "^23.0.11",
+		"@wordpress/base-styles": "^3.6.0",
+		"@wordpress/scripts": "^17.1.0",
+		"classnames": "^2.3.1",
+		"lodash": "^4.17.21",
+		"node-gyp": "^8.1.0",
+		"sass": "^1.77.6"
+	},
+	"dependencies": {
+		"@wordpress/block-editor": "^12.21.0",
+		"@wordpress/blocks": "^12.30.0",
+		"@wordpress/edit-widgets": "^5.30.0",
+		"lodash.times": "^4.3.2"
+	}
+}

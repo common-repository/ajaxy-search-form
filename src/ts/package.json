@@ -1,0 +1,31 @@
+{
+  "name": "360remit",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@rollup/plugin-node-resolve": "^13.1.3",
+    "@rollup/plugin-replace": "^3.0.1",
+    "@rollup/plugin-typescript": "^8.3.0",
+    "dom-helpers": "^5.2.1",
+    "hammerjs": "^2.0.8",
+    "popmotion": "^9.4.0",
+    "rollup": "^2.63.0",
+    "sass": "^1.47.0",
+    "simple-animate": "^0.0.5",
+    "tsconfig-paths-webpack-plugin": "^3.5.2",
+    "whatwg-fetch": "^3.6.2"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.2",
+    "browser-sync": "^2.27.7",
+    "gulp-plumber": "^1.2.1",
+    "gulp-postcss": "^9.0.1",
+    "rollup-plugin-terser": "^7.0.2"
+  }
+}

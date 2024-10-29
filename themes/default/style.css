@@ -1,0 +1,97 @@
+.sf-results
+{
+	background: #fff;
+	box-shadow: 0 0 5px #aaa;
+	border-color: #333 #333 #293e6a;
+}
+.sf-more
+{
+	background: #F7F7F7;
+	border-top:1px solid #DDD;
+}
+.sf-val ul.sf-main
+{
+	background: #fff;
+}
+.sf-val ul ul li
+{
+	color:#000;
+	border-color:#fff;
+}
+.sf-val ul li.sf-selected
+{
+	background-color: #6D84B4 !important;
+	border-color: #3B5998 !important;
+	color: white !important;
+}
+.sf-val ul li.sf-selected a, .sf-val ul li.sf-selected span
+{
+	color: white !important;
+}
+.sf-val ul li.sf-header
+{
+	background:#eee;
+	border-top:1px solid #DDD;
+}
+.sf-val li.sf-item img
+{
+	background-color: #eceff5;
+}
+.sf-val li .sf-small
+{
+	color:#666;
+}
+.sf-search .sf-input{
+	color:#aaa !important;
+	background:#fff !important;
+}
+.sf-search .sf-focused{
+	color:#333 !important;
+}
+.sf-search
+{	
+	background:#fff;
+}
+
+.sf-loading
+{
+	background-image: url("images/sf_loading.gif") !important;
+}
+/* selective search css */
+.sf-ajaxy-selective-search {
+    color: rgba(255, 255, 255, 0.498039);
+    text-decoration: none solid rgba(255, 255, 255, 0.498039);
+    background: rgb(255, 255, 255) none repeat scroll 0% 0% / auto padding-box border-box;
+	border-color:rgba(0, 0, 0, 0.247059) rgba(0, 0, 0, 0.14902) rgba(0, 0, 0, 0.14902) rgba(0, 0, 0, 0.14902);
+    font: 16px/24px Arial, sans-serif;
+    outline: rgba(255, 255, 255, 0.498039) none 0px;
+}
+
+
+.sf-ajaxy-selective-item {
+    color: rgb(255, 255, 255);
+	text-decoration: none solid rgb(255, 255, 255);
+	background: rgb(109, 132, 180) -webkit-linear-gradient(top, rgb(116, 140, 190), rgb(102, 124, 170)) repeat scroll 0% 0% / auto padding-box border-box;
+	border: 1px solid rgb(98, 118, 158);
+	border-radius: 2px 2px 2px 2px;
+	font: normal normal bold 11px/19px Arial, sans-serif;
+	outline: rgb(255, 255, 255) none 0px;
+	padding: 0px 8px;
+	transition: all 0.218s ease 0s;
+}
+
+.sf-ajaxy-selective-close {
+    color: rgb(255, 255, 255);
+    text-decoration: none solid rgb(255, 255, 255);
+    border: 0px none rgb(255, 255, 255);
+    font: normal normal bold 11px/19px Arial, sans-serif;
+    margin: 16.5px 0px;
+    outline: rgb(255, 255, 255) none 0px;
+	background: transparent;
+}
+
+.sf-ajaxy-selective-search input.sf-ajaxy-selective-input {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box;
+    border: 0px none rgb(0, 0, 0);
+	box-shadow: 0 0 0;
+}

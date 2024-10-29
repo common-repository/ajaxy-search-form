@@ -1,0 +1,57 @@
+{
+	"apiVersion": 2,
+	"name": "ajaxy-blocks/widget",
+	"title": "Ajaxy Instant Search",
+	"category": "ajaxy-blocks",
+	"description": "Live search",
+	"keywords": ["live", "search"],
+	"textdomain": "default",
+	"attributes": {
+		"postTypes": { 
+			"type": "array"
+		},
+		"showCategories": {
+			"type": "boolean"
+		},
+		"rtlStyles": {
+			"type": "boolean"
+		},
+		"showPostCategories": {
+			"type": "boolean"
+		},
+		"searchLabel": {
+			"type": "string"
+		},
+		"delay": {
+			"type": "string"
+		},
+		"credits": {
+			"type": "boolean"
+		},
+		"searchUrl": {
+			"type": "string"
+		},
+		"borderColor": {
+			"type": "string"
+		},
+		"borderType": {
+			"type": "string"
+		},
+		"borderWidth": {
+			"type": "string"
+		},
+		"resultsWidth": {
+			"type": "string"
+		},
+		"resultsWidthUnit": {
+			"type": "string"
+		},
+		"width": {
+			"type": "string"
+		}
+	},
+	"supports": {
+		"anchor": false,
+		"html": false
+	}
+}

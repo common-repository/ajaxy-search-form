@@ -1,0 +1,60 @@
+.sf-results {
+    background: #fff;
+    border-radius: 4px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .25), 0 0 1px rgba(0, 0, 0, .35);
+    border-width: 0;
+}
+
+.sf-val ul ul li {
+    border-width: 0; 
+}
+
+.sf-loading {
+    background-image: url("images/loading.svg") !important;
+}
+
+.sf-val li.sf-item img {
+    position: static;
+    width: auto;
+    height: auto;
+    max-width: 50px;
+    max-height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.sf-val li.sf-selected{
+    background-color: #f8f8f8;
+}
+
+.sf-container ::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.14);
+    background-clip: padding-box;
+    border: solid rgb(255, 255, 255);
+    border-width: 1px;
+    min-height: 28px;
+    padding: 0;
+    border-radius: 5px;
+}
+
+.sf-more {
+    border-top: 1px solid #eee;
+}
+
+.sf-val ul li a {
+    color: #333;
+}
+
+.sf-val li a:hover span.sf-text {
+    text-decoration: underline;
+}
+
+.sf-small.sf-price {
+    color: #c7677b;
+    font-style: normal;
+    font-family: inherit;
+}
+
+.sf-small.sf-price .amount {
+    font-weight: bold;
+}

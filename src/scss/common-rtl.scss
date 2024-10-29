@@ -1,0 +1,26 @@
+.sf-container.sf-rtl {
+
+    .sf-val ul li.sf-item a,
+    .sf-val ul li.sf-lnk>a {
+        img {
+            margin-right: 0px;
+            margin-left: 10px;
+        }
+    }
+
+    .sf-thumbnail-image {
+        margin-left: 0.8rem;
+        margin-right: 0rem;
+    }
+
+    .sf-sb-top {
+        margin-left: 0px;
+        margin-right: -10px;
+        right: 50%;
+        left: auto;
+
+        &::after {
+            left: 9px;
+        }
+    }
+}
